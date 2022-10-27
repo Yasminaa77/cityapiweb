@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cors Client</title>
+    <script src="scripts/jquery/jquery.min.js"></script>
+</head>
+<body>
+    <h3>Cors City</h3>
+    <button id="btnGetCities">Get City</button>
+    <pre id="preOutput"></pre>
+    <script>
+      $(function () {
+        var getCities = function () {
+          var url = "https://localhost:7252/api/controller/getcities";
+          $.get(url).always(showResponse);
+          return false;
+        };
+    
+        var showResponse = function (data) {
+          $("#preOutput").text(JSON.stringify(data, null, 4));
+        };
+    
+        $("#btnGetCities").click(getCities);
+      });
+    </script>
+    </body>
+</html>
+</html>

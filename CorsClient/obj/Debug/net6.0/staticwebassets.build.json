@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "oIW+Rd024LZvs5vnRsfKRHMXnFUyOrc5x5klAA4C+TQ=",
+  "Source": "CorsClient",
+  "BasePath": "_content/CorsClient",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CorsClient\\wwwroot",
+      "Source": "CorsClient",
+      "ContentRoot": "C:\\Users\\yaasm\\Documents\\web application\\webApi\\CorsClient\\wwwroot\\",
+      "BasePath": "_content/CorsClient",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yaasm\\Documents\\web application\\webApi\\CorsClient\\wwwroot\\index.html",
+      "SourceId": "CorsClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yaasm\\Documents\\web application\\webApi\\CorsClient\\wwwroot\\",
+      "BasePath": "_content/CorsClient",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\yaasm\\Documents\\web application\\webApi\\CorsClient\\wwwroot\\scripts\\jquery\\jquery.min.js",
+      "SourceId": "CorsClient",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yaasm\\Documents\\web application\\webApi\\CorsClient\\wwwroot\\",
+      "BasePath": "_content/CorsClient",
+      "RelativePath": "scripts/jquery/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts\\jquery\\jquery.min.js"
+    }
+  ]
+}
